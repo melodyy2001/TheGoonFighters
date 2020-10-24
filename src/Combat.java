@@ -11,7 +11,7 @@ public class Combat {
 			long end = System.currentTimeMillis();
 			long time = end - start;
 			if(ans.equals(prob.getA())) {
-				double t = time / 1000;
+				double t = time / 1000.0;
 				if(t > 10) {
 					System.out.println("You took too long to answer, but you got the question right!");
 				} else {
